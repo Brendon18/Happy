@@ -1,0 +1,46 @@
+Ideia do app ==> conectar as pessoas, 
+pra elas saberem q existem orfanatos proximos da casa dela, 
+o q pode levar, quando pode visitar, se tem q marcar essa visita
+levar brinquedos, brincar com as crianças  
+
+landing page, mapa, cadastrar um novo orfanato
+formulario, visualização, detalhes do orfanato
+ver no google maps, botao para entrar em contato
+
+=== AMBIENTE ===
+yarn - gerenciador de pacotes, vem junto com o node 
+back (JSON)- tudo q n pode entrar em contato direto com o usuario, 
+banco, autenticação, etc
+front - realiza uma requisição
+
+*----- -----*
+*----- -----*
+
+o que é o react? biblioteca de criação de interface com obj de melhorar a ex do user, tudo q vemos e interagimos na tela é o react 
+vantagens - ajuda a lidar com dados JSON, se n fosemos usar react, teriamos q percorrer dado por dado
+ e montar alguma coisa em tela com uma div por exe, no react a gente criar de uma forma mais simples e flexivel, 
+ SPA-single page aplicattion, troca o conteudo de uma tela sem precisar carregar ela do zero, UX
+
+pq usar typeScript? conj de funcionalidades/ferramentas que a gente coloca em cima do JS
+a famosa tipagem, facilitar o entendimento, ajuda na chamada da função, avisa erro, quem for da manutenção vai entender o q é aquela variavel, etc 
+
+-> criando projeto
+yarn create react-app web --template typescript
+cd web
+code .
+install code command in PATH
+
+babel - converte uma sintaxe de JS/Type pra uma que o brower possa entender
+
+-> componentes, JSX e propriedades
+ts-typescript - o X e por conta da sintaxe
+jsx(javascript Xml) - uma forma de colocar html no JS
+no react, todo componente é uma função q retorna html ou jsx
+
+criando landing page
+
+trabalhando com rotas
+
+pagina com mapa 
+
+45:50
